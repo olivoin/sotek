@@ -106,7 +106,7 @@
         <div class="katalog-string">
             <div class="row">
                 <div class="katalog-item">
-                    <a href="http://www.sotek.ru/katalog/prokladka-smennaya/">
+                    <a href="http://www.sotek.ru/katalog/plita-s-uporami-31883-nsb/">
                         <video id="katalog-video" loop preload poster="<?php bloginfo('template_url'); ?>/assets/images/katalog/plita_s_uporami_2.png">
                             <source src="<?php bloginfo('template_url'); ?>/assets/video/plita_s_uporami_2.webm" type="video/webm">
                             <source src="<?php bloginfo('template_url'); ?>/assets/video/plita_s_uporami_2.ogg" type="video/ogg">
@@ -116,23 +116,23 @@
                     </a>
                 </div>
                 <div class="katalog-item">
-                    <a href="http://www.sotek.ru/katalog/prokladka-v-podpyatnik-m1698-01-005/">
+                    <a href="http://www.sotek.ru/katalog/plita-s-uporom-31887-nsb/">
                         <video id="katalog-video" loop preload poster="<?php bloginfo('template_url'); ?>/assets/images/katalog/plita_s_uporom.png">
                             <source src="<?php bloginfo('template_url'); ?>/assets/video/plita_s_uporom.webm" type="video/webm">
                             <source src="<?php bloginfo('template_url'); ?>/assets/video/plita_s_uporom.ogg" type="video/ogg">
                             <source src="<?php bloginfo('template_url'); ?>/assets/video/plita_s_uporom.mp4" type="video/mp4">
                         </video>
-                        <h3>Плита с упорами 31883-НСБ</h3>
+                        <h3>Плита с упором 31887-НСБ</h3>
                     </a>
                 </div>
                 <div class="katalog-item">
-                    <a href="http://www.sotek.ru/katalog/prokladka-smennaya/">
-                        <video id="katalog-video" loop preload poster="<?php bloginfo('template_url'); ?>/assets/images/katalog/plita_s_uporami_2.png">
+                    <a href="http://www.sotek.ru/katalog/plita-s-uporom-31901-nsb/">
+                        <video id="katalog-video" loop preload poster="<?php bloginfo('template_url'); ?>/assets/images/katalog/plita_s_uporami_3.png">
                             <source src="<?php bloginfo('template_url'); ?>/assets/video/plita_s_uporami_3.webm" type="video/webm">
                             <source src="<?php bloginfo('template_url'); ?>/assets/video/plita_s_uporami_3.ogg" type="video/ogg">
                             <source src="<?php bloginfo('template_url'); ?>/assets/video/plita_s_uporami_3.mp4" type="video/mp4">
                         </video>
-                        <h3>Плита с упорами 31883-НСБ</h3>
+                        <h3>Плита с упором 31901-НСБ</h3>
                     </a>
                 </div>
             </div>
