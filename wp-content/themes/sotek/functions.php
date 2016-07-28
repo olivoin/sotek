@@ -33,13 +33,13 @@ $theme_uri = get_template_directory_uri();
 
 // global style connected
 
-wp_register_style('my-theme-style', $theme_uri.'/assets/css/production.css', false, '1.1');
+wp_register_style('my-theme-style', $theme_uri.'/assets/css/production_post.css', false, '2.0');
 wp_enqueue_style('my-theme-style');
 
     
 // scripts connected
     
-wp_register_script('my_theme_functions', $theme_uri.'/assets/js/production.min.js', array('jquery'), '1.1', true);
+wp_register_script('my_theme_functions', $theme_uri.'/assets/js/production.min.js', array('jquery'), '2.0', true);
 wp_enqueue_script('my_theme_functions'); 
 }
 add_action('wp_enqueue_scripts', 'my_theme_load_resources');

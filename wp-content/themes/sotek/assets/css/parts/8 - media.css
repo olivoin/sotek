@@ -11,6 +11,11 @@
         width: 90%;
     }
     
+    #header .navigation {
+        position: relative;
+        bottom: 10px;
+    }
+    
     #fp-nav {
         padding-top: 24%;
     }
@@ -29,6 +34,10 @@
     
     .section-desc p {
         font-size: 22px;
+    }
+    
+    .section-content-video video {
+        max-width: 500px;
     }
     
     .promo-block-left h2 {
@@ -71,6 +80,10 @@
     
     #header .navigation li {
         display: block;
+    }
+    
+    #header .cube-menu {
+        display: none;
     }
     
     #breadcrumbs {
@@ -134,6 +147,10 @@
     .section-hello h1 {
         font-size: 24px;
         margin-left: -5px;
+    }
+    
+    .hello-video {
+        display: none;
     }
     
     .section-hello p {

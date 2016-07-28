@@ -21,6 +21,13 @@
                 </div>
             </div>
         </div>
+        <div class="hello-video">
+            <video data-autoplay preload loop>
+                <source src="<?php bloginfo('template_url'); ?>/assets/video/front-video.webm" type="video/webm">
+                <source src="<?php bloginfo('template_url'); ?>/assets/video/front-video.ogg" type="video/ogg">
+                <source src="<?php bloginfo('template_url'); ?>/assets/video/front-video.mp4" type="video/mp4">
+            </video>
+        </div>
     </div>
     <div class="section section-cat" style="background-image:url(<?php bloginfo('template_url'); ?>/assets/images/katalog/klin.png);">
         <div class="wrap hor-wrap">

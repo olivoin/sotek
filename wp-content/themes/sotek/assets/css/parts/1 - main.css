@@ -203,6 +203,10 @@ body.home #header {
     font-size: 38px;
 }
 
+#header #nav_menu-2 {
+    display: none;
+}
+
 #header .navigation {
     float: right;
     margin-right: 45px;
