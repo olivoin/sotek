@@ -1,0 +1,10 @@
+body.page-template-page-company .production-first {
+    height: 70vh;
+    background: url(http://yesofcorsa.com/wp-content/uploads/2015/10/1839_skyscraper.jpg) center center no-repeat;
+    background-size: cover;
+    margin-bottom: 170px;
+}
+
+body.page-template-page-company .production-first .full-height {
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0) 0,rgb(0, 0, 0) 100%);
+}

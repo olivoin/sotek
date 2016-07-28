@@ -1,0 +1,13 @@
+body.page-template-page-contacts #page {
+    margin: 0;
+}
+
+body.page-template-page-contacts .section-contacts {
+    height: 100vh;
+}
+
+body.page-template-page-contacts .section-contacts .wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}

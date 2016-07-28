@@ -1,0 +1,222 @@
+/* global styles on front page */
+
+.cube {
+  width: 250px;
+  height: 70px;
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  transition: all 250ms ease;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+/* The two faces of the cube */
+.default-state,
+.active-state {
+  height: 70px;
+}
+/* Position the faces */
+.default-state {
+  -webkit-transform: translateZ(20px);
+  -moz-transform: translateZ(20px);
+  -o-transform: translateZ(20px);
+  -ms-transform: translateZ(20px);
+  transform: translateZ(20px);
+}
+.flip-to-top .active-state {
+  -webkit-transform: rotateX(90deg) translateZ(100px);
+  -moz-transform: rotateX(90deg) translateZ(100px);
+  -o-transform: rotateX(90deg) translateZ(100px);
+  -ms-transform: rotateX(90deg) translateZ(100px);
+  transform: rotateX(90deg) translateZ(100px);
+}
+.flip-to-bottom .active-state {
+  -webkit-transform: rotateX(-90deg) translateZ(-20px);
+  -moz-transform: rotateX(-90deg) translateZ(-20px);
+  -o-transform: rotateX(-90deg) translateZ(-20px);
+  -ms-transform: rotateX(-90deg) translateZ(-20px);
+  transform: rotateX(-90deg) translateZ(-20px);
+}
+/* Rotate the cube */
+.cube.flip-to-top:hover {
+  -webkit-transform: rotateX(-89deg);
+  -moz-transform: rotateX(-89deg);
+  -o-transform: rotateX(-89deg);
+  -ms-transform: rotateX(-89deg);
+  transform: rotateX(-89deg);
+}
+.cube.flip-to-bottom:hover {
+  -webkit-transform: rotateX(89deg);
+  -moz-transform: rotateX(89deg);
+  -o-transform: rotateX(89deg);
+  -ms-transform: rotateX(89deg);
+  transform: rotateX(89deg);
+}
+
+.cube {
+  text-align: center;
+}
+.default-state,
+.active-state {
+  border: 1px solid #C3AE90;
+  color: #fff;
+  line-height: 70px;
+  -webkit-transition: background 250ms ease;
+  -moz-transition: background 250ms ease;
+  -o-transition: background 250ms ease;
+  transition: background 250ms ease;
+}
+
+.active-state a,
+.default-state span {
+    color: #C3AE90;
+}
+
+
+/* other */
+
+body.home .page-breadcrumps {
+    display: none;
+}
+
+.section-cat {
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: -13% 50%;
+}
+
+.section-cat .fp-tableCell {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%,rgba(0,0,0,0.65) 66%,rgba(0,0,0,0) 100%);
+}
+
+.section-desc {
+    width: 35%;
+    padding-right: 8%;
+    text-align: right;
+}
+
+.section-desc h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.section-desc p {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.section-content {
+    width: 65%;
+    padding-left: 8%;
+}
+
+.section-content-desc {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    position: relative;
+}
+
+.section-content-desc:before {
+    content: '';
+    width: 1px;
+    height: 5vw;
+    background: rgba(255, 255, 255, 0.18);
+    position: absolute;
+    bottom: 49px;
+}
+
+.section-counter {
+    position: fixed;
+    background: #000;
+    bottom: 20px;
+    display: flex;
+    left: 47.6%;
+    z-index: 2;
+}
+
+.section .wrap {
+    display: flex;
+    align-items: center;
+}
+
+.section-content-video {
+    text-align: center;
+}
+
+.section-content-video video {
+    max-width: 800px;
+}
+
+/* first section */
+
+.section .wrap {
+    display: flex;
+    align-items: center;
+}
+
+.section-hello {
+    background: url(../images/front-page-2.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.section-hello .full-height {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.section-hello .cube {
+    margin-top: 30px;
+}
+
+.section-hello h1 {
+    font-size: 64px;
+
+    color: #fff;
+}
+
+.section-hello p {
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.section-hello .button {
+    margin-top: 50px;
+}
+
+/* section contacts */
+
+.section-contacts {
+    background: url(../images/kontakti.png) center center no-repeat;
+    background-size: cover;
+}
+
+.section-contacts .padding-40 {
+    background: #fff;
+    color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-contacts .text-block h2 { 
+    font-size: 36px;
+}
+
+.section-contacts .text-block .button { 
+    margin-top: 25px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    margin-bottom: 20px;
+    background: #FDFDFD;
+    color: #C3AE90;
+}
+
+.contact-form .wpcf7-submit {
+    background: none;
+}

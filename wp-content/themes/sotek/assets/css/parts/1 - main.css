@@ -1,0 +1,272 @@
+@font-face {
+    font-family: "флкщифе";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/EBGaramond-Regular.eot");
+    src: url("../fonts/EBGaramond-Regular.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/EBGaramond-Regular.ttf") format("truetype"),
+	url("../fonts/EBGaramond-Regular.svg#codropsicons") format("svg");
+} 
+
+/* scroll bar */
+
+::-webkit-scrollbar {
+    width: 5px
+}
+
+::-webkit-scrollbar-thumb {
+    border-width: 1px 1px 1px 2px;
+    border-color: #fafafa;
+    background-color: #444;
+    border-radius: 5px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    border-width: 1px 1px 1px 2px;
+    border-color: #fafafa;
+    background-color: #666
+}
+
+::-webkit-scrollbar-track {
+    border-width: 0
+}
+
+::-moz-scrollbar {
+    width: 5px
+}
+
+::-moz-scrollbar-thumb {
+    border-width: 1px 1px 1px 2px;
+    border-color: #fafafa;
+    background-color: #444;
+    border-radius: 5px
+}
+
+::-moz-scrollbar-thumb:hover {
+    border-width: 1px 1px 1px 2px;
+    border-color: #fafafa;
+    background-color: #666
+}
+
+::-moz-scrollbar-track {
+    border-width: 0
+}
+
+/* body and html general */
+
+body, html {
+    width: 100%;
+    height: 100%
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #000;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* text politics */
+
+.text-block p,
+.text-block ul,
+.text-block h1,
+.text-block h2,
+.text-block h3,
+.text-block h4,
+.text-block img{
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.text-block p:last-child,
+.text-block ul:last-child,
+.text-block li:last-child,
+.text-block h1:last-child,
+.text-block h2:last-child,
+.text-block h3:last-child,
+.text-block h4:last-child,
+.text-block img:last-child{
+    margin-bottom: 0;
+}
+
+.text-block a {
+    text-decoration: underline;
+    color: #C3AE90;
+}
+
+.text-block li {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.text-block li:before {
+    width: 15px;
+    height: 2px;
+    background: #C3AE90;
+    top: 13px;
+    left: -27px;
+    position: absolute;
+}
+
+.text-block strong {
+    color: #C3AE90;
+}
+
+.dis-flex {
+    display: flex;
+}
+
+/* general */
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+li {
+    list-style: none;
+}
+
+input,textarea {
+    border-bottom: 1px solid #777;
+    background: #222;
+    padding: 20px;
+    width: 100%;
+    font-family: inherit;
+}
+
+input:focus, textarea:focus {
+     border-bottom: 1px solid #C3AE90;
+}
+
+.button, .wpcf7-submit {
+    padding: 20px 50px;
+    color: #C3AE90;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #C3AE90;
+}
+
+h1,h2,h3 {
+    font-weight: 100;
+}
+
+.wrap {
+    width: 1100px;
+}
+
+.row:after {
+    content: '';
+    display: table;
+    clear: both;
+    height: 0;
+}
+
+video {
+    width: 100%;
+}
+
+/* header */
+
+body.logged-in #header {
+    top: 32px;
+}
+
+body.home #header {
+    position: fixed;
+    
+}
+
+#header {
+    top: 0;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    z-index: 10;
+    padding: 30px 0;
+}
+
+.mobile-burger {
+    display: none;
+}
+
+#header .logo {
+    float: left;
+    margin-left: 45px;
+    font-size: 38px;
+}
+
+#header .navigation {
+    float: right;
+    margin-right: 45px;
+}
+
+#header .navigation li {
+    display: inline;
+    margin-right: -4px;
+    padding: 20px;
+    background-color: #000;
+}
+
+#header .navigation li:hover ,
+#header .navigation li.current_page_item,
+#header li.current-page-ancestor{
+    background-color: #fff;
+}
+
+#header .navigation li:hover a,
+#header .navigation li.current_page_item a,
+#header li.current-page-ancestor a{
+    color: #000;
+}
+
+#header .navigation li:last-child {
+    margin-right: 0;
+}
+
+#header .navigation li a {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+/* breadcrumps */
+
+.page-breadcrumps {
+    position: relative;
+    text-align: right;
+    padding-right: 45px;
+    top: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.page-breadcrumps a {
+    color: #AFAFAF;
+    transition: all 100ms linear;
+}
+
+.page-breadcrumps a:hover {
+    color: #fff;
+}
+
+.page-breadcrumps a {
+    margin-right: 10px;
+}
+
+.page-breadcrumps span { 
+    margin-left: 10px;
+}
+
+/* page */
+
+#page {
+    margin-top: 200px;
+}

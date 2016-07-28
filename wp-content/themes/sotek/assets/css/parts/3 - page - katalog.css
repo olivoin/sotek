@@ -1,0 +1,28 @@
+.katalog-string {
+    margin-bottom: 12%;
+    transition: all 250ms ease-in-out;
+    opacity: 0.6;
+}
+
+.katalog-item {
+    width: 28%;
+    float: left;
+    margin-right: 8%;
+    text-align: center;
+}
+
+.katalog-string .katalog-item:nth-of-type(3n) { 
+    margin-right: 0;
+}
+
+.katalog-item img {
+    width: 65%;
+}
+
+.katalog-item h3 {
+    
+}
+
+.katalog-string:hover {
+    opacity: 1;
+}

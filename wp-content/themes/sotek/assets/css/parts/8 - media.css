@@ -1,0 +1,229 @@
+@media screen and (min-width:1650px) and (max-width:1920px){
+    .wrap {
+        width: 85%;
+        min-width: 1200px;
+    }
+}
+
+@media screen and (min-width:1280px) and (max-width:1366px) {
+    
+    .wrap {
+        width: 90%;
+    }
+    
+    #fp-nav {
+        padding-top: 24%;
+    }
+    
+    .section-hello h1 {
+        font-size: 45px;   
+    }
+    
+    .section-hello p {
+        font-size: 35px;
+    }
+    
+    .section-desc h2 {
+        font-size: 28px;
+    }
+    
+    .section-desc p {
+        font-size: 22px;
+    }
+    
+    .promo-block-left h2 {
+        font-size: 32px;
+    }
+    
+    .production-first,
+    body.page-template-page-company .production-first{
+        margin-bottom: 60px;
+    }
+    
+}
+
+@media screen and (min-width:850px) and (max-width:1279px) {
+
+}
+
+@media screen and (min-width:800px) and (max-width:1024px) {
+
+}
+
+@media screen and (min-width:480px) and (max-width:800px) {
+   
+}
+
+@media screen and (min-width:320px) and (max-width:414px) {
+
+    #fp-nav{
+        display: none;
+    }
+    
+    #header .logo {
+        margin-left: 20px;
+        display: none;
+    }
+    
+    #header .navigation {
+        margin-right: 20px;
+    }
+    
+    #header .navigation li {
+        display: block;
+    }
+    
+    #breadcrumbs {
+        display: none;
+    }
+    
+    .mobile-burger {
+        display: block;
+        position: relative;
+        bottom: 10px;
+        padding: 20px;
+        background: #000;
+        letter-spacing: 5px;
+        z-index: 10;
+    }
+    
+    #nav_menu-2 {
+        display: none;
+    }
+    
+    .row .col-2,
+    .row .col-3{
+        width: 100%;
+    }
+    
+    .wrap {
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    .float-l,
+    .float-r {
+        float: none !important;
+    }
+    
+    .dis-flex {
+        display: block;
+    }
+    
+    .padding-l-40,
+    .padding-r-40 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    /* front page */
+    
+    .section .wrap {
+        display: block;
+    }
+    
+    .section-desc,
+    .section-content {
+        width: 100%;
+        padding: 0;
+        text-align: left;
+    }
+    
+    .section-hello h1 {
+        font-size: 24px;
+        margin-left: -5px;
+    }
+    
+    .section-hello p {
+        font-size: 24px;
+    }
+    
+    .section-cat {
+        background-position: 50% 50%;
+        background-size: contain;
+    }
+    
+    .section-cat .section-content {
+        display: none;
+    }
+    
+    .contact-form {
+        display: none;
+    }
+    
+    /* katalog */
+    
+    .katalog-item {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+    
+    /* katalog single */
+    
+    .single-item-first {
+        display: block;
+        padding-top: 90px;
+    }
+    
+    .single-item-first-down {
+        bottom: 15px;
+    }
+    
+    .single-item-first .section-content, .single-item-first .section-desc {
+        width: 100%;
+    }
+    
+    .single-item-details-titles,
+    .single-item-details-desc {
+        float: none;
+        width: 100%;
+        padding: 0;
+        border: none;
+    }
+    
+    .tabs ul.single-item-details-titles {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .tabs ul.single-item-details-titles li {
+        margin-bottom: 30px;
+        color: #C3AE90;
+        padding-bottom: 20px;
+        width: 33.333%;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #C3AE90;
+        font-size: 16px;
+        padding-right: 0;
+        text-align: center;
+    }
+    
+    .single-item-details-titles li img {
+        display: none;
+    }
+    
+    /* production */
+    
+    .production-first {
+        margin-bottom: 0;
+    }
+    
+    .promo-block-left,
+    .promo-block-right {
+        float: none;
+        width: 100%;
+        padding: 0;
+        border: none;
+    }
+    
+    .promo-block-left h2 {
+        font-size: 34px;
+        text-align: left;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(195, 174, 144, 0.39);
+    }
+}
