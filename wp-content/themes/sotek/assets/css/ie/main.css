@@ -1,7 +1,8 @@
-.cube-menu {
-    display: none;
-}
-
-#header #nav_menu-2 {
-    display: block;
+@media all and (-ms-high-contrast:none) {
+    .cube-menu {
+        display: none;
+    }
+    #header #nav_menu-2 {
+        display: block;
+    }
 }

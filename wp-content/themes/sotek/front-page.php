@@ -9,14 +9,7 @@
                     </div>
                     <div class="section-content">
                         <h1>производство и поставка<br>запасных частей<br>к грузовым вагонам</h1>
-                        <div class="cube flip-to-top">
-                            <div class="default-state">
-                                <span>подробнее</span>
-                            </div>
-                            <div class="active-state">
-                                <a href="#second">подробнее</a>
-                            </div>
-                        </div>
+                        <a href="#second" class="button">подробнее</a>
                     </div>
                 </div>
             </div>
@@ -34,16 +27,7 @@
             <div class="section-desc">
                 <h2>Износотойкие элементы</h2>
                 <p>...</p>
-                <div class="row">
-                    <div class="cube flip-to-top float-r">
-                        <div class="default-state">
-                            <span>перейти к каталогу</span>
-                        </div>
-                        <div class="active-state">
-                            <a href="http://www.sotek.ru/katalog/">перейти к каталогу</a>
-                        </div>
-                    </div>
-                </div>
+                <a href="http://www.sotek.ru/katalog/" class="button">перейти к каталогу</a>
             </div>
             <div class="section-content">
                 <div class="section-content-video">
@@ -64,17 +48,7 @@
             <div class="section-desc">
                 <h2>запорно-пломбировочное устройство</h2>
                 <p>для пломбирования вагонов</p>
-                <div class="row">
-                    <div class="cube flip-to-top float-r">
-                        <div class="default-state">
-                            <span>перейти к детали</span>
-                        </div>
-                        <div class="active-state">
-                            <a href="http://www.sotek.ru/katalog/zaporno-plombirovochnoe-ustroystvo/">перейти к детали</a>
-                        </div>
-                    </div>
-                </div>
-                
+                <a href="http://www.sotek.ru/katalog/zaporno-plombirovochnoe-ustroystvo/" class="button">перейти к детали</a> 
             </div>
             <div class="section-content">
                 <div class="section-content-video">
@@ -92,16 +66,7 @@
             <div class="section-desc">
                 <h2>запорное устройство дверей</h2>
                 <p>для грузового вагона</p>
-                <div class="row">
-                    <div class="cube flip-to-top float-r">
-                        <div class="default-state">
-                            <span>перейти к детали</span>
-                        </div>
-                        <div class="active-state">
-                            <a href="http://www.sotek.ru/katalog/zapornoe-ustroystvo-dverey/">перейти к детали</a>
-                        </div>
-                    </div>
-                </div>
+                <a href="http://www.sotek.ru/katalog/zapornoe-ustroystvo-dverey/" class="button">перейти к детали</a>
             </div>
             <div class="section-content">
                 <div class="section-content-video">

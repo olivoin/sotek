@@ -14,53 +14,69 @@
 <body <?php body_class(); ?>>
 <header id="header">
     <div class="row">
-        <div class="logo">СотекКомЦентр</div>
+        <div class="logo"><a href="/">СотекКомЦентр</a></div>
         <nav class="navigation">
             <div class="mobile-burger">
                 меню
             </div>
             <?php echo do_shortcode('[widget id="nav_menu-2"]'); ?>
-            <div class="navigation-menu cube-menu">
-                <div class="cube flip-to-top">
-                    <div class="default-state">
-                        <span>главная</span>
-                    </div>
-                    <div class="active-state">
-                        <a href="/">главная</a>
-                    </div>
-                </div>
-                <div class="cube flip-to-top">
-                    <div class="default-state">
-                        <span>каталог</span>
-                    </div>
-                    <div class="active-state">
-                        <a href="http://www.sotek.ru/katalog/">каталог</a>
+            <div class="navigation-menu">
+                <div class="header-navigation-item header-navigation-item--vu-par-richard-mille">
+                    <div class="header-navigation-item-state-wrapper">
+                        <div class="header-navigation-item-state header-navigation-item-state--white">
+                            <span class="header-navigation-item-state-content header-navigation-item-state-content--white">главная</span>
+                        </div>
+
+                        <div class="header-navigation-item-state header-navigation-item-state--black">
+                            <a class="header-navigation-item-state-content header-navigation-item-state-content--black" href="/">главная</a>
+                        </div>
                     </div>
                 </div>
-                <div class="cube flip-to-top">
-                    <div class="default-state">
-                        <span>компания</span>
-                    </div>
-                    <div class="active-state">
-                        <a href="http://www.sotek.ru/o-kompanii/">компания</a>
-                    </div>
-                </div>
-                <div class="cube flip-to-top">
-                    <div class="default-state">
-                        <span>производство</span>
-                    </div>
-                    <div class="active-state">
-                        <a href="http://www.sotek.ru/proizvodstvo/">производство</a>
+                <div class="header-navigation-item header-navigation-item--vu-par-richard-mille">
+                    <div class="header-navigation-item-state-wrapper">
+                        <div class="header-navigation-item-state header-navigation-item-state--white">
+                            <span class="header-navigation-item-state-content header-navigation-item-state-content--white">каталог</span>
+                        </div>
+
+                        <div class="header-navigation-item-state header-navigation-item-state--black">
+                            <a class="header-navigation-item-state-content header-navigation-item-state-content--black" href="/">каталог</a>
+                        </div>
                     </div>
                 </div>
-                <div class="cube flip-to-top">
-                    <div class="default-state">
-                        <span>контакты</span>
-                    </div>
-                    <div class="active-state">
-                        <a href="http://www.sotek.ru/kontaktyi/">контакты</a>
+                <div class="header-navigation-item header-navigation-item--vu-par-richard-mille">
+                    <div class="header-navigation-item-state-wrapper">
+                        <div class="header-navigation-item-state header-navigation-item-state--white">
+                            <span class="header-navigation-item-state-content header-navigation-item-state-content--white">компания</span>
+                        </div>
+
+                        <div class="header-navigation-item-state header-navigation-item-state--black">
+                            <a class="header-navigation-item-state-content header-navigation-item-state-content--black" href="/">компания</a>
+                        </div>
                     </div>
                 </div>
+                <div class="header-navigation-item header-navigation-item--vu-par-richard-mille">
+                    <div class="header-navigation-item-state-wrapper">
+                        <div class="header-navigation-item-state header-navigation-item-state--white">
+                            <span class="header-navigation-item-state-content header-navigation-item-state-content--white">производство</span>
+                        </div>
+
+                        <div class="header-navigation-item-state header-navigation-item-state--black">
+                            <a class="header-navigation-item-state-content header-navigation-item-state-content--black" href="/">производство</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-navigation-item header-navigation-item--vu-par-richard-mille">
+                    <div class="header-navigation-item-state-wrapper">
+                        <div class="header-navigation-item-state header-navigation-item-state--white">
+                            <span class="header-navigation-item-state-content header-navigation-item-state-content--white">контакты</span>
+                        </div>
+
+                        <div class="header-navigation-item-state header-navigation-item-state--black">
+                            <a class="header-navigation-item-state-content header-navigation-item-state-content--black" href="/">контакты</a>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </nav>
     </div>
