@@ -36,13 +36,16 @@ module.exports = function(grunt) {
                   'assets/css/libs/*.css',
                   'assets/css/vendor/*.css'
               ],
+              'assets/css/ie/main.min.css': [
+                  'assets/css/ie/*.css'
+              ], 
             },
           },
         },
                 
         autoprefixer: {
             options: {
-                browsers: ['opera 12', 'ff 15', 'chrome 25']
+                browsers: ['opera 12', 'ff 15', 'chrome 25', 'ie 8', 'ie 9']
             },
 
             single_file: {

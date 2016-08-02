@@ -135,6 +135,7 @@ body.home .page-breadcrumps {
     background: rgba(255, 255, 255, 0.18);
     position: absolute;
     bottom: 49px;
+    left: calc(50% - 1px);
 }
 
 .section-counter {
@@ -169,6 +170,7 @@ body.home .page-breadcrumps {
 .section-hello {
     background: url(../images/front-page-2.jpg) center center no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .hello-video {

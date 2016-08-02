@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta charset="utf-8" />
 <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/assets/images/favicon.png" type="image/x-icon">
+<!--[if IE]> 
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/assets/css/ie/main.min.css" /> 
+<![endif]-->
 <?php wp_head(); ?>
 <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
 </head>

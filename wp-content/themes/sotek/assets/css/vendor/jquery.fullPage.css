@@ -128,6 +128,12 @@ html.fp-enabled,
     bottom: 0;
 }
 
+#fp-nav > ul {
+    position: absolute;
+    left: -15px;
+    top: calc(50% - 54px);
+}
+
 .fp-slidesNav{
     position: absolute;
     z-index: 4;
