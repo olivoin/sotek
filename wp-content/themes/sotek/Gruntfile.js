@@ -74,7 +74,8 @@ module.exports = function(grunt) {
                     'assets/js/parts/*.js',
                     'assets/css/parts/*.css',
                     'assets/css/libs/*.css',
-                    'assets/css/vendor/*.css'
+                    'assets/css/vendor/*.css',
+                    'assets/css/responsive/*.css'
                 ],
                 tasks: ['concat','uglify', 'cssmin', 'autoprefixer' ],
                 options: {
