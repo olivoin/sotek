@@ -21,7 +21,7 @@
     }
     
     .section-hello h1 {
-        font-size: 45px;   
+        font-size: 56px;   
     }
     
     .section-hello p {
@@ -52,7 +52,11 @@
 }
 
 @media screen and (min-width:850px) and (max-width:1279px) {
-
+    
+    .section-hello h1 {
+        font-size: 46px;
+    }
+    
 }
 
 @media screen and (min-width:800px) and (max-width:1024px) {
@@ -70,8 +74,9 @@
     }
     
     #header .logo {
+        font-size: 16px;
+        margin-top: 10px;
         margin-left: 20px;
-        display: none;
     }
     
     #header .navigation {
@@ -82,12 +87,21 @@
         display: block;
     }
     
-    #header .cube-menu {
+    #header .navigation-menu {
         display: none;
     }
     
+    #header .logo .lang-switch {
+        top: -4px;
+        font-size: 16px;
+    }
+    
+    .page-breadcrumps {
+        padding-right: 0;
+    }
+    
     #breadcrumbs {
-        display: none;
+        padding-right: 20px;
     }
     
     .mobile-burger {
@@ -98,6 +112,7 @@
         background: #000;
         letter-spacing: 5px;
         z-index: 10;
+        border: 1px solid rgba(255, 255, 255, 0.13);
     }
     
     #nav_menu-2 {
@@ -144,8 +159,13 @@
         text-align: left;
     }
     
+    .section-hello {
+        background: url(../images/frontbg.png) center center no-repeat;
+        background-size: cover;
+    }
+    
     .section-hello h1 {
-        font-size: 24px;
+        font-size: 27px;
         margin-left: -5px;
     }
     
@@ -182,7 +202,7 @@
     
     .single-item-first {
         display: block;
-        padding-top: 90px;
+        padding-top: 120px;
     }
     
     .single-item-first-down {
@@ -210,7 +230,7 @@
         margin-bottom: 30px;
         color: #C3AE90;
         padding-bottom: 20px;
-        width: 33.333%;
+        width: 100%;
         margin-bottom: 30px;
         border-bottom: 1px solid #C3AE90;
         font-size: 16px;
@@ -219,6 +239,14 @@
     }
     
     .single-item-details-titles li img {
+        display: none;
+    }
+    
+    .section-desc h2 {
+        font-size: 27px;
+    }
+    
+    body.page-template-page-katalog-children #breadcrumbs {
         display: none;
     }
     

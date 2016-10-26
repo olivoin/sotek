@@ -8,13 +8,13 @@
 
                     </div>
                     <div class="section-content">
-                        <h1>производство и поставка<br>запасных частей<br>к грузовым вагонам</h1>
-                        <a href="#second" class="button">подробнее</a>
+                        <h1 class="wow fadeInUp" data-wow-delay="0.3s">производство и поставка<br>запасных частей<br>к грузовым вагонам</h1>
+                        <a href="#second" class="button wow fadeInUp" data-wow-delay="0.4s">подробнее</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="hello-video">
+        <div class="hello-video wow fadeIn" data-wow-delay="1.1s">
             <video data-autoplay preload loop>
                 <source src="<?php bloginfo('template_url'); ?>/assets/video/front-video.webm" type="video/webm">
                 <source src="<?php bloginfo('template_url'); ?>/assets/video/front-video.ogg" type="video/ogg">
@@ -22,7 +22,7 @@
             </video>
         </div>
     </div>
-    <div class="section section-cat" style="background-image:url(<?php bloginfo('template_url'); ?>/assets/images/katalog/klin.png);">
+    <div class="section section-cat section-klin">
         <div class="wrap hor-wrap">
             <div class="section-desc">
                 <h2>Износотойкие элементы</h2>
@@ -42,8 +42,9 @@
                 </div>
             </div>
         </div>
+        <div class="section-cat-bg" style="background-image:url(<?php bloginfo('template_url'); ?>/assets/images/klin.png);"></div>
     </div>
-    <div class="section section-cat" style="background-image:url(<?php bloginfo('template_url'); ?>/assets/images/katalog/zpu.png);">
+    <div class="section section-cat section-zpu">
         <div class="wrap hor-wrap">
             <div class="section-desc">
                 <h2>запорно-пломбировочное устройство</h2>
@@ -60,8 +61,9 @@
                 </div>
             </div>
         </div>
+        <div class="section-cat-bg" style="background-image:url(<?php bloginfo('template_url'); ?>/assets/images/zpu.png);"></div>
     </div>
-    <div class="section section-cat" style="background-image:url(<?php bloginfo('template_url'); ?>/assets/images/katalog/zud.png);">
+    <div class="section section-cat section-zud">
         <div class="wrap hor-wrap">
             <div class="section-desc">
                 <h2>запорное устройство дверей</h2>
@@ -81,8 +83,8 @@
                 </div>
             </div>
         </div>
+        <div class="section-cat-bg" style="background-image:url(<?php bloginfo('template_url'); ?>/assets/images/zud.png);"></div>
     </div>
-
     <div class="section section-contacts">
         <div class="wrap hor-wrap">
             <div class="section-desc"></div>
@@ -102,8 +104,4 @@
         </div>
     </div>
 </div>
-<!--<div class="section-counter">
-    <div class="section-counter-current">0</div>
-    <div class="section-counter-total">0</div>
-</div>-->
 <?php get_footer(); ?>

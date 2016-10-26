@@ -34,7 +34,8 @@ module.exports = function(grunt) {
               'assets/css/production.css': [
                   'assets/css/parts/*.css',
                   'assets/css/libs/*.css',
-                  'assets/css/vendor/*.css'
+                  'assets/css/vendor/*.css',
+                  'assets/css/responsive/*.css'
               ],
               'assets/css/ie/main.min.css': [
                   'assets/css/ie/*.css'
@@ -54,16 +55,16 @@ module.exports = function(grunt) {
             }
           },
         
-        imagemin: {
-            dynamic: {
-                files: [{
-                    expand: true,
-                    cwd: 'assets/images/',
-                    src: ['**/*.{png,jpg,gif,svg}'],
-                    dest: 'assets/images/'
-                }]
-            }
-        },
+        //imagemin: {
+        //    dynamic: {
+        //        files: [{
+        //            expand: true,
+        //            cwd: 'assets/images/',
+        //            src: ['**/*.{png,jpg,gif,svg}'],
+        //            dest: 'assets/images/'
+        //        }]
+        //    }
+        //},
         
         watch: {
             scripts: {
@@ -94,7 +95,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     
     // 4. Указываем, какие задачи выполняются, когда мы вводим «grunt» в терминале
-    grunt.registerTask('default', ['concat', 'uglify' , 'cssmin', 'autoprefixer', 'imagemin', 'watch']);
+    grunt.registerTask('default', ['concat', 'uglify' , 'cssmin', 'autoprefixer', 'watch']);
 
     
 };

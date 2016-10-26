@@ -1,9 +1,5 @@
 jQuery(document).ready(function($) {
     
-    
-    
-    
-    
     $('#frontpage').fullpage({
         navigation: true,
         navigationPosition: 'right',

@@ -1,9 +1,7 @@
 <?php /* Template Name: Страница - Каталог - Продукт */ get_header(); ?>
 <main id="page">
-    
     <div class="wrap hor-wrap">
-        
-        <section class="single-item-first">
+        <section class="single-item-first wow fadeIn" data-wow-delay="0.4s">
             <div class="section-desc">
                 <h2><?php the_title(); ?></h2>
                 <?php the_excerpt(); ?>
@@ -16,10 +14,8 @@
             <div class="single-item-first-down">
                 <img src="<?php bloginfo('template_url'); ?>/assets/images/arrow-down.svg">
             </div>
-        </section>
-        
-        
-        <section class="single-item-details">
+        </section>       
+        <section class="single-item-details wow fadeIn">
             <div class="tabs">
                 <ul class="single-item-details-titles">
                     <li>Описание <img src="<?php bloginfo('template_url'); ?>/assets/images/icons/icon-opisanie.svg"></li>

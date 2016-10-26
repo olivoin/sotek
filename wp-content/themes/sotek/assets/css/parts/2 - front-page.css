@@ -4,9 +4,31 @@ body.home .page-breadcrumps {
     display: none;
 }
 
-.section-cat {
-    background-size: 50%;
+.section-cat-bg {
     background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: all 1.0s ease-in-out;
+    transition-delay: 1.5s;
+    opacity: 0;
+}
+
+#frontpage .section-klin .section-cat-bg {
+    background-size: 77%;
+    background-position: -81% 86%;
+}
+
+#frontpage .section-zpu .section-cat-bg {
+    background-size: contain;
+    background-position: -320% 50%;
+}
+
+#frontpage .section-zud  .section-cat-bg {
+    background-size: 56%;
     background-position: -13% 50%;
 }
 
@@ -24,6 +46,7 @@ body.home .page-breadcrumps {
     font-size: 32px;
     text-transform: uppercase;
     margin-bottom: 10px;
+    color: #C3AE90;
 }
 
 .section-desc p {
@@ -75,6 +98,30 @@ body.home .page-breadcrumps {
     max-width: 800px;
 }
 
+.section-cat .section-desc,
+.section-cat .section-content{
+    opacity: 0;  
+    transition:         all 1.0s ease-in-out;;
+    transition-delay: 600ms;
+}
+
+.section-cat .section-desc {
+    transform: translate3d(0, 30px, 0);
+}
+
+.section-cat.active .section-cat-bg {
+   opacity: 1;
+}
+
+.section-cat.active .section-desc {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+.section-cat.active .section-content {
+    opacity: 1;
+}
+
 /* first section */
 
 .section .wrap {
@@ -83,9 +130,8 @@ body.home .page-breadcrumps {
 }
 
 .section-hello {
-    background: url(../images/front-page-2.jpg) center center no-repeat;
-    background-size: cover;
     overflow: hidden;
+    background: #000;
 }
 
 .hello-video {

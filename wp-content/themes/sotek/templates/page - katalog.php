@@ -1,6 +1,6 @@
 <?php /* Template Name: Страница - Каталог */ get_header(); ?>
 <main id="page">
-    <div class="wrap hor-wrap">
+    <div class="wrap hor-wrap wow fadeInUp" data-wow-delay="0.4s">
         <div class="katalog-string">
             <div class="row">
                 <div class="katalog-item">
